@@ -8,7 +8,9 @@ export class ThreeJSManager {
   private animationId: number | null = null
   private isPaused = false
 
-  constructor(private canvas: HTMLCanvasElement) {}
+  constructor(private canvas: HTMLCanvasElement) {
+    // 构造函数体为空
+  }
 
   init(demo: Demo) {
     this.cleanup()

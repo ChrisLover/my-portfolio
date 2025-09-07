@@ -9,7 +9,7 @@ export interface Demo {
   icon: string
   tags: string[]
   features: string[]
-  setupFunction: (scene: THREE.Scene, camera: THREE.Camera, renderer: THREE.Renderer) => void
+  setupFunction: (scene: THREE.Scene, camera: THREE.Camera, renderer: THREE.WebGLRenderer) => void
 }
 
 export const demos: Demo[] = [
