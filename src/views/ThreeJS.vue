@@ -79,7 +79,7 @@ interface Demo {
   icon: string
   tags: string[]
   features: string[]
-  setupFunction: (scene: THREE.Scene, camera: THREE.Camera, renderer: THREE.Renderer) => void
+  setupFunction: (scene: THREE.Scene, camera: THREE.Camera, renderer: THREE.WebGLRenderer) => void
 }
 
 const selectedDemo = ref<Demo | null>(null)
